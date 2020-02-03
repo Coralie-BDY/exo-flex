@@ -1,0 +1,42 @@
+section{
+	width: 100%;
+/*	display: flex;
+*/}
+
+div{
+	box-sizing: border-box;
+	text-align:center;
+	width:20%;
+	border: 1px solid red;
+	float: left;
+    /* à commenter si vous utilisez les flez */
+    
+}
+
+div a img {
+	width: 50%;
+}
+
+
+
+@media (max-width: 768px) {
+
+/*	section{
+		flex-direction:column;
+	}*/
+/*	section{
+		display:block;
+	}*/
+	
+	div {
+		color:red;
+		width: 100%;
+		clear: left;
+		/* Le clear left est à commenté si vous utilisé le display flex */
+	}
+
+	div a img {
+	width: 30%;
+}
+
+}

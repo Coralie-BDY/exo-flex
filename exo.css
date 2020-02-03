@@ -1,0 +1,49 @@
+section{
+    width: 100%;
+    display: flex; /*--Utilisation de Flexbox--*/
+    
+}
+
+div{
+    border: 2px solid blue;
+    text-align: center;
+    width: 20%;
+    margin-right: 2px;
+    border-radius: 30px;
+ 
+}
+
+img {
+    width: 30%; 
+    
+}
+
+img:hover{
+    background: red;
+    border-radius: 100%;
+    transition: 5s;
+    transform:rotate(360deg);
+}
+
+div:hover{
+    background-color: aqua;
+}
+
+@media(max-width:768px){
+    section{
+        width: 50%;
+        display: block;
+        margin: auto;
+          }
+    
+    div{
+        width: 100%;
+        margin: 5px;
+        background: red;
+        color: aquamarine;
+       }  
+    
+  
+}
+        
+}
